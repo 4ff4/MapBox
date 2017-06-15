@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+
+
+	<head>
+		<meta charset='utf-8' />
+		<title></title>
+		<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+		<script src='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
+		<link href='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
+			<style>
+				body { margin:0; padding:0; }
+				#map { position:absolute; top:0; bottom:0; width:100%; }
+			</style>
+	</head>
+
+	
+	
+	
+	
+	
+	
+	<body>
+		
+		<div id='map'></div>
+		<style>
+			.mapboxgl-popup {
+			max-width: 400px;
+			font: 12px/20px 'Helvetica Neue'. Arial, Helvetica, sans-serif;
+			}
+			</style>
+		<script>
+		var myaccesstoken = 'pk.eyJ1Ijoic3BhdHJpY2s0NjciLCJhIjoiTVNaNG1OWSJ9.gq6641R9QJG5jWyO5tKIJw'
+			mapboxgl.accessToken = myaccesstoken;
+			var map = new mapboxgl.Map({
+			container: 'map',
+			style: 'mapbox://styles/spatrick467/cj3yh6guz21os2so16xhs4son'
+			center: [-75.4478, 40.6168],
+			zoom: 10
+			});
+			
+			map.on('load', function() {
+			
+		</script>
+		
+		
+	</body>
+
+
+
+
+
+
+
+
+</html>
